@@ -3,13 +3,14 @@ package HW.TestCollisionhashMap.AuxiliaryClasses;
 import java.util.Objects;
 
 public class AuxClass {
-    private final int i;
+     final int i;
     public AuxClass(int i) {
         this.i = i;
     }
+
     @Override
     public int hashCode() {
-        return Objects.hashCode(1);
+        return Objects.hashCode(i);
     }
 
     @Override
